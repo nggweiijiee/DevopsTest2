@@ -118,7 +118,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uta:VerifyRange AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Range" sap:VirtualizedContainerService.HintSize="388,272" sap2010:WorkflowViewState.IdRef="VerifyRange_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" VerificationType="is within">
+      <uta:VerifyRange AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Range - test" sap:VirtualizedContainerService.HintSize="388,272" sap2010:WorkflowViewState.IdRef="VerifyRange_1" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" VerificationType="is within">
         <uta:VerifyRange.Expression>
           <InArgument x:TypeArguments="x:Int32">[testResult]</InArgument>
         </uta:VerifyRange.Expression>
